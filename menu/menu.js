@@ -8,17 +8,17 @@ $(".info-item .btn").click(function () {
   // });
 
 $("#bCadRota").click(function () {
-    $('#form-item-container').html('<iframe src="cadRota.html" frameborder="0" height="320px"></iframe>');
+    $('#form-item-container').html('<iframe src="cadRota.html" frameborder="0" height="360px"></iframe>');
     $(".container").toggleClass("log-in");
   });
 
 $("#bVerRota").click(function () {
-    $('#form-item-container').html('<iframe src="verRota.html" frameborder="0" height="320px"></iframe>');
+    $('#form-item-container').html('<iframe src="verRota.html" frameborder="0" height="360px"></iframe>');
     $(".container").toggleClass("log-in");
   });
 
-$("#bPd").click(function () {
-    $('#form-item-container').html('<p>Pedidos</p>');
+$("#bDenuncia").click(function () {
+    $('#form-item-container').html('<iframe src="denuncia.html" frameborder="0" height="360px"></iframe>');
     $(".container").toggleClass("log-in");
   });
 

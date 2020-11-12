@@ -153,3 +153,10 @@ body {
   height: 0%;
   opacity: 0;
 }
+
+.mapa {
+  border: solid 1px #B8B8B8;
+  width: 70%;
+  height: 100px;
+  margin: 0px 45px;
+}
